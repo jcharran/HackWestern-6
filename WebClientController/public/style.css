@@ -1,0 +1,44 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
+.connectedStyle {
+  width: 12px;
+  height: 12px;
+  margin-right: 7px;
+  margin-top: 3px;
+}
+
+.control{
+  width: 4vw;
+  height:4vw;
+  margin:0.5em;
+}
+
+#dance{
+  width: 4vw;
+  height:4vw;
+  margin:0.5em;
+}
+
+
+@media only screen 
+and (max-device-width: 800px){
+  .control{
+    width: 33vw;
+    height:33vw;
+    margin:0.1em;
+  }
+  #dance{
+    width: 33vw;
+    height:33vw;
+    margin:0.1em;
+  }
+  .material-icons{
+    font-size: 10vw !important;
+  }
+  #passenger,#driver{
+    font-size: 10vw;
+  }
+}
+
